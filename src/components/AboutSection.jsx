@@ -11,17 +11,17 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
+            <h3 className="text-xl md:text-2xl font-semibold">
               Aspiring Software Engineer & Web Developer 
             </h3>
 
-            <p className="text-muted-foreground">
+            <p className="text-sm md:text-[1rem] text-muted-foreground">
                 I am an undergraduate B.Tech student in Electronics and Communication
                 Engineering at Techno Main Salt Lake (2023-2027), passionate about software
                 development and building modern web applications.
             </p>
 
-            <p className="text-muted-foreground">
+            <p className="text-sm md:text-[1rem] text-muted-foreground">
                 I enjoy solving programming problems, exploring new technologies, and
                 creating responsive, user-friendly applications. I continuously work on
                 improving my skills in web development, problem-solving, and software
@@ -51,7 +51,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-sm md:text-[1rem] mt-0.5 text-muted-foreground">
                     Building responsive and scalable web applications using React, Tailwind CSS, Node.js, Express.js, and MongoDB.
                   </p>
                 </div>
@@ -64,7 +64,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Problem Solving</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-sm md:text-[1rem] mt-0.5 text-muted-foreground">
                     Practicing data structures and algorithms to improve logical thinking and develop efficient solutions.
                   </p>
                 </div>
@@ -78,7 +78,7 @@ export const AboutSection = () => {
 
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Electronics & Communication</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-sm md:text-[1rem] mt-0.5 text-muted-foreground">
                     Connecting hardware with software by building IoT solutions using sensors, microcontrollers.
                   </p>
                 </div>
