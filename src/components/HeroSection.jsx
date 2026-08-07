@@ -16,7 +16,7 @@ export const HeroSection = () => {
                 className="relative w-48 h-48 rounded-full object-cover border-2 border-violet-400 mx-auto transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
             </div>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          <h1 className="text-3xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
@@ -28,7 +28,7 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+          <p className="text-sm md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
            I am a passionate aspiring Software Engineer with a strong interest in Web Development and problem-solving. I enjoy building user-friendly applications, learning new technologies, and continuously improving my technical skills through projects and coding challenges
           </p>
             
