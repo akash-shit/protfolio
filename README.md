@@ -22,9 +22,9 @@ A modern and fully responsive **Developer Portfolio** built with **React**, **Vi
 
 ### 🚀 Portfolio
 
-https://codesky.vercel.app/
 
-> Replace this URL with your deployed Vercel URL if different.
+
+
 
 ---
 
