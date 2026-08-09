@@ -13,6 +13,16 @@ const projects = [
   },
   {
     id: 2,
+    title: "CareerPilot — AI powered career assistant",
+    description:
+      "An AI-powered career assistant that analyzes your resume and creates personalized interview preparation plans to help you become job-ready",
+    image: "/projects/project3.png",
+    tags: ["Gen AI","React", "Mongodb"],
+    demoUrl: "https://careerpilot-ai-delta-five.vercel.app",
+    githubUrl: "https://github.com/akash-shit/CareerPilot-AI",
+  },
+    {
+    id: 3,
     title: "Sheryians Coding School Clone (Responsive UI)",
     description:
       "A fully responsive clone of the Sheryians Coding School landing page built using only HTML5 and CSS3.",
@@ -21,16 +31,6 @@ const projects = [
     demoUrl: "https://akash-shit.github.io/Responsive-UI/",
     githubUrl: "https://github.com/akash-shit/Responsive-UI",
   },
-//   {
-//     id: 3,
-//     title: "E-commerce Platform",
-//     description:
-//       "Full-featured e-commerce platform with user authentication and payment processing.",
-//     image: "/projects/project3.png",
-//     tags: ["React", "Node.js", "Stripe"],
-//     demoUrl: "#",
-//     githubUrl: "#",
-//   },
 ];
 
 export const ProjectsSection = () => {
@@ -47,7 +47,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {projects.map((project, key) => (
             <div
               key={key}
